@@ -1,0 +1,52 @@
+/* getAllProduct.css */
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px auto;
+    padding: 15px;
+    width: 300px; /* Adjust width as needed */
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
+  }
+  
+  .product-name {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;    
+  }
+  
+  .product-price {
+    font-weight: bold;
+    color: #008000;
+    margin-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .product-description {
+    color: #666;
+    margin-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .product-category {
+    color: #444;
+    margin-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .product-rating {
+    font-size: 1.2em;
+    color: #f8c102; /* Golden yellow for ratings */
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Hover effect */
+  .product-item:hover {
+    border: 1px solid #0066cc; /* Change border color on hover */
+    box-shadow: 0 0 15px rgba(0, 102, 204, 0.3); /* Add box shadow on hover */
+  }
+  

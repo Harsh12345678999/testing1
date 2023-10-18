@@ -1,0 +1,51 @@
+/* getAllProduct.css */
+
+.product-T {
+  text-align: center;
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  text-decoration: none;
+
+}
+
+
+
+.product-vertical {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  margin: 5px; /* Adjust margin as needed */
+  padding: 5px;
+  width: calc(20% - 30px); /* 20% width for each product with margin */
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none; 
+}
+
+.product-name {
+  font-size: 1.2em;
+  color: #333;
+  text-decoration: none
+ 
+}
+
+.product-price {
+  font-weight: bold;
+  color: #008000; /* Green color for price */
+  text-decoration: none;
+}
+
+.product-description {
+  color: #666;
+  text-decoration: none;
+}
+
+.product-category {
+  color: #444;
+  text-decoration: none;
+}
